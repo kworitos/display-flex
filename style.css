@@ -1,0 +1,56 @@
+section{
+    border: 1px solid red;
+}
+
+.mengo{
+     display: flex;
+     align-items: center; /* alinhamento do eixo transversal */
+     justify-content: center;/* alinhamento do eixo principal */
+     gap: 4rem;/* espaçamento entre os elementos do dp */
+
+     margin-bottom: 1rem;
+}
+
+.mengo img{
+    width: 20rem;
+}
+
+.mengo p{
+    width: 30rem;
+    text-align: center;
+}
+
+.jp{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; /* alterar a direção do eixo principal */
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+.jp img{
+    width: 20rem;
+}
+
+.jp p{
+    width: 30rem;
+    text-align: center;
+}
+
+.forml{
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.forml div{
+    display: flex;
+flex-direction: column;
+}
+
+.forml form{
+    width: 30rem;
+}
